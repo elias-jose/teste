@@ -7,50 +7,7 @@
 	 <meta name="viewport"content="width=device-width, initial-scale=1.0">
 		<title>Matemática/Noções lógica </title>
 		<link rel="stylesheet" type="text/css" href="tf.css">
- <!--Css -->
-		<style>
-		  		*{
-		 margin-top: 0;
-		 margin-left: 0;
-		 margin-right: 0;  
-		}
-		body{
-		   background-color: #fff;
-		   font-family: Verdana; 
-		}
-		#menu{
-		   background-color:#D82828;
-		}
-		#menu ul{
-		   list-style: none;
-		   display: inline-block;
-		}
-		#menu ul li{
-		   display:inline-block; 
-		   padding-top: 5px;
-		   padding-right: 50px;
-		   padding-bottom: 5px;
-		   }	
-		#menu ul li a{
-		   display: inline-block;
-		   color: #fff;
-		   text-decoration: none;
-		}
-		#menu ul li a:hover{
-		   color: Black;
-		}
-		.tg{
-		   font-family: Times New Roman; 
-		}
-		.th{
-		 border: 2px solid Black;
-		 font-weigth: bold;
-		 font-family: 'Arial';
-		}
-		bold{
-		   color: red;
-		}
-		</style>
+ <!--Css -->		
 </head>
 <body>
   <div id="menu">
