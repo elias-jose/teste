@@ -1,0 +1,136 @@
+   * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar {
+         position: fixed;
+         top: 0px; /* sticks the side nav to the top */
+         left: 0px; /* sticks the side nav to the left side */
+         width: 100%;
+      }
+      .content {
+         margin-top: 50px;
+      }
+      .content > div {
+         padding: 15px;
+      }
+      .nav-bar a {
+         text-decoration: none;
+         color: black;
+         display: block;
+         height: 50px; /* sets fixed height */
+         line-height: 50px; /* vertically centers the text */
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         background: #D82828;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+         border-right: 1px groove #333;
+          /* for the borders */
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+		.desig{
+		   padding: 1px;
+		   display: block;
+		   font-size: 10px;
+		   color: #ddd;
+		}
+		#desig{
+		   border: 1px hidden #000;
+		   padding: 1px;
+		   background-color: #000;
+		   display: block;
+		}
+		.image{
+		   border-radius: 50%;
+		   border: 2px solid black;
+		}
+		#text{
+		   padding-left: 20px;
+		   padding-right: 20px;
+		}
+		#return{
+		   text-decoration: none;
+		}
+		#return ul{
+		   list-style-type: none;
+		}
+		#return ul li a{
+		   text-decoration: none;
+		}
+		.tg{
+		   padding-top: 50px;
+		   font-family: Times New Roman; 
+		}
+		.th{
+		 border: 2px solid #ddd;
+		 font-weigth: bold;
+		 font-family: 'Arial';
+		}
+		bold{
+		   color: red;
+		}
+   .end{
+      border: none;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      heigth: 100px;
+      width: 50px;
+   }
+      footer {
+         color: #fff;
+         background: #333;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+      }
+      .footer-body {
+         margin-bottom: 40px;
+         padding: 50px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         word-spacing: 10px;
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+		
